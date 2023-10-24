@@ -1,0 +1,30 @@
+.header {
+  /* селектор */
+  display: flex; /* поместить элементы в блок */
+  justify-content: space-around; /* выровнять элементы в блоке */
+  padding-top: 30px; /* отступ сверху */
+  padding-bottom: 30px; /* отступ снизу */
+  background-color: #141024; /* цвет заднего фона */
+}
+
+.menu_list {
+  display: flex;
+  list-style: none; /* убрать стилизацию у списков */
+  margin: 0; /* убрать отступы дос следующего элемента */
+}
+
+.menu_list-item {
+  margin-right: 40px; /* установить отступ у элементов */
+}
+
+.menu_list_link {
+  text-decoration: none; /* отменяем подчёркиваение */
+  color: #fff; /* цвет шрифта */
+  font-size: 20px; /*  размер шрифта */
+}
+
+.tel {
+  text-decoration: none; /* отменяем подчёркиваение */
+  color: #fff; /* цвет шрифта */
+  font-size: 30px; /*  размер шрифта */
+}
